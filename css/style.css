@@ -1,0 +1,41 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: cornflowerblue
+}
+ul{
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+    height: 110px;
+    
+}
+li{
+    list-style: none;
+   
+} 
+a{
+    text-decoration: none;
+
+}
+ul li{
+    padding: 0 23px;
+}
+.logo{
+
+}
+nav{
+    display: flex;
+}
+.container{
+    
+    
+}
+footer{
+    text-align: center;
+background-color: cadetblue;
+height: 30px;
+}
