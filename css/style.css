@@ -24,16 +24,44 @@ a{
 ul li{
     padding: 0 23px;
 }
-.logo{
-
+input{
+    padding: 1px 2px;
 }
+
 nav{
     display: flex;
 }
-.container{
-    
+nav ul li a:hover{
+    color: crimson;
+    font-style: bold;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    width: 493px;
+    height: 27px;
+    border-radius: 5px;
+    margin: 0 50px 0 56px;
+
+}
+.slider{
+    height:120px ;
+    width:120px;
+    margin: 0 240px 0 ;
+float: right;
+transition:2s ease-in-out;
+
     
 }
+main {
+    height: 580px;
+}
+
+
+
+
 footer{
     text-align: center;
 background-color: cadetblue;
