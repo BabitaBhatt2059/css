@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Grid</title>
+    <style>
+        .container{
+            margin: 0;
+            padding:0;
+            display:grid;
+            background-color: burlywood;
+            grid-gap: 9px;
+            grid-template-columns: auto auto auto;
+            grid-template-rows: auto auto auto;
+
+
+
+        }
+        @media screen and(max-width:500px) {
+            .container{
+                background-color: brown;
+
+            }
+
+        }
+        .item{
+            border: 2px solid green;
+
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item"   height="100%" width="100%">1
+            <img src="/images/babi (3).jpg" alt="" height="100%" width="100%">
+
+
+        </div>
+        <div class="item"  height="100%" width="100%">2
+            <img src="/images/babbu.jpg" alt="" height="100%" width="100%">
+        </div>
+        <div class="item" height="100%" width="100%">3
+            <img src="/images/babi (2).jpg" alt=""  height="100%" width="100%">
+        </div>
+        <div class="item" height="100%" width="100%">4
+            <img src="/images/babi (4).jpg" alt=""  height="100%" width="100%">
+        </div>
+        <div class="item"  height="100%" width="100%">5
+            <img src="/images/babi (5).jpg" alt=""  height="100%" width="100%">
+        </div>
+        <div class="item"  height="100%" width="100%">6
+            <img src="/images/babi.jpg" alt=""  height="100%" width="100%">
+        </div>
+    </div>
+
+</body>
+</html>
