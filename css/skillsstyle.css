@@ -13,3 +13,7 @@ div{background-color: orange;
     border: solid gray;
     border-radius: 10%;
 }
+
+    .id{ float: left;
+        border:2px solid white; border-radius: 70%; shape-outside: circle();
+    margin: 10px;}
