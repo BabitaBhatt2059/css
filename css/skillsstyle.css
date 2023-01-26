@@ -1,0 +1,15 @@
+*{margin: 2%;
+    padding: 0;}
+    h1{color: blue;
+    background-color: pink
+    ;text-align: center;
+    }
+    .id{ float: left;
+    border:2px solid white; border-radius: 70%; shape-outside: circle();
+margin: 10px;}
+div{background-color: orange;
+    box-shadow:   3px 6px gray;
+    box-sizing: border-box;
+    border: solid gray;
+    border-radius: 10%;
+}
